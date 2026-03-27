@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
       <Header />
-      <p>This is App Component</p>
+      <p>This is react Component</p>
     </div>
   );
 }
