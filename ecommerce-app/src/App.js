@@ -1,7 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+
 import './App.css'
 import Login from './Login';
 import Register from './Register';
@@ -11,13 +8,7 @@ function App() {
 
   return (
     <div className= "App">
-      <h2>Transflower Store</h2>
-      <hr/>
-      <Login></Login>
-      <hr/>
-      <Register></Register>
-      <hr/>
-      <Product></Product>
+      <home></home>
       </div>
 
   );
@@ -27,11 +18,29 @@ function App() {
 function Home() {
   return(
     <div>
-      <h2>Transflower Store</h2>
-      <h3>Fresh Flowers from Transflower Farms</h3>
+      <div className="jumbotron text-center">
+        <h1>Welcome to Transflower Store</h1>
+        <p>Your one-stop shop for all your floral needs!</p>
+      </div>
+
+      <div className="container">
+
+        <div className="row">
+          <div className="col-sm-4">
+            <p>Flowers</p>
+            <p>Celebrate every moment using flowers</p>
+          </div>
+
+        <div className="col-sm-4">
+          <p>Vegetables</p>
+          <p>Increase immunity with our fresh vegetables</p>
+        </div>
+      </div>
+      </div>
     </div>
-  )
-}
+    )
+  }
+
 
 function About() {
   return(
