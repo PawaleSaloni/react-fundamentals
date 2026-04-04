@@ -5,17 +5,19 @@ class Login extends React.Component {
   render() {
     return (
       <div>
-        <h2>Login</h2>
         <form>
-          <div>
-            <label>Email:</label>
-            <input type="email" />
+          <div className="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" className="form-control" id="email"/>
           </div>
-          <div>
-            <label>Password:</label>
-            <input type="password" />
+          <div className="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" className="form-control" id="pwd"/>
           </div>
-          <button type="submit">Login</button>
+          <div className="checkbox">
+            <label><input type="checkbox"/> Remember me</label>
+          </div>
+          <button type="submit" className="btn btn-success">Submit</button>
         </form>
       </div>
     );

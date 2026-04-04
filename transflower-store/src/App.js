@@ -1,3 +1,4 @@
+import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
 import './App.css'
 import Login from './Login';
 import Register from './Register';
@@ -7,16 +8,38 @@ function App() {
 
   return (
     <div className= "App">
-      <Home></Home>
-      <hr/>
-      <Product></Product>
-
+     <BasicRouting></BasicRouting>
       </div>
 
   );
 }
 
 // Functions Component for Home, About, and Contact pages
+function BasicRouting() {
+  return (
+    <div>
+      <h1>Transflower Store</h1>
+      <Router>
+         <Link to="/">Home</Link> |{" "}
+        <Link to="/about">About Us</Link> |{" "}
+        <Link to="/contact">Contact Us</Link> |{" "}
+        <Link to="/login">Login</Link> |{" "}
+        <Link to="/register">Register</Link>
+
+        <hr />
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+        </Routes>
+      </Router>
+    </div>
+  );
+}
+
 function Home() {
   return(
     <div>
@@ -28,6 +51,7 @@ function Home() {
       <div className="container">
 
         <div className="row">
+
           <div className="col-sm-4">
             <p>Flowers</p>
             <p>Celebrate every moment using flowers</p>
@@ -40,7 +64,7 @@ function Home() {
 
         <div className="col-sm-4">
           <p>Vegetables</p>
-          <p>Increase immunity with our fresh vegetables</p>
+          <p>Get your daily dose of healthy vegetables</p>
         </div>
       </div>
       </div>
@@ -53,8 +77,9 @@ function About() {
   return(
     <div>
       <h2>About Us</h2>
-      <h3>Transflower Agro Services</h3>
+      <p>Transflowers Farm is a family-owned business dedicated to providing high-quality flowers, fruits, and vegetables to our customers. We are committed to sustainable farming practices and strive to create a positive impact on our community and the environment.</p>
     </div>
+
   )
 }
 
