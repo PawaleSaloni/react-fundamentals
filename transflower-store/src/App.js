@@ -15,6 +15,7 @@ function App() {
 }
 
 // Functions Component for Home, About, and Contact pages
+// This component will be used to demonstrate basic routing in React using react-router-dom
 function BasicRouting() {
   return (
     <div>
