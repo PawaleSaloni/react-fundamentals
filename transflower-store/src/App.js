@@ -2,7 +2,10 @@ import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
 import './App.css'
 import Login from './Login';
 import Register from './Register';
-import Product from './Product';
+import List from './List';
+import Orders from './Orders';
+import Order from './Order';
+
 
 function App() {
 
@@ -24,6 +27,8 @@ function BasicRouting() {
          <Link to="/">Home</Link> |{" "}
         <Link to="/about">About Us</Link> |{" "}
         <Link to="/contact">Contact Us</Link> |{" "}
+        <Link to="/products">Products</Link> |{" "}
+        <Link to="/orders">Orders</Link> |{" "}
         <Link to="/login">Login</Link> |{" "}
         <Link to="/register">Register</Link>
 
@@ -32,6 +37,8 @@ function BasicRouting() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/products" element={<List />} />
+          <Route path="/orders" element={<Orders />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
         </Routes>

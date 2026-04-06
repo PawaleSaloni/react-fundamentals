@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "customerName": "Amit Sharma",
+    "orderDate": "2026-04-01",
+    "amount": 200,
+    "status": "Delivered"
+  },
+  {
+    "id": 2,
+    "customerName": "Priya Patil",
+    "orderDate": "2026-04-02",
+    "amount": 150,
+    "status": "Shipped"
+  },
+  {
+    "id": 3,
+    "customerName": "Rahul Verma",
+    "orderDate": "2026-04-03",
+    "amount": 300,
+    "status": "Processing"
+  },
+  {
+    "id": 4,
+    "customerName": "Sneha Joshi",
+    "orderDate": "2026-04-04",
+    "amount": 120,
+    "status": "Delivered"
+  },
+  {
+    "id": 5,
+    "customerName": "Vikas Singh",
+    "orderDate": "2026-04-05",
+    "amount": 90,
+    "status": "Pending"
+  },
+  {
+    "id": 6,
+    "customerName": "Neha Kulkarni",
+    "orderDate": "2026-04-06",
+    "amount": 250,
+    "status": "Shipped"
+  },
+  {
+    "id": 7,
+    "customerName": "Rohit Mehta",
+    "orderDate": "2026-04-07",
+    "amount": 180,
+    "status": "Delivered"
+  },
+  {
+    "id": 8,
+    "customerName": "Pooja Desai",
+    "orderDate": "2026-04-08",
+    "amount": 220,
+    "status": "Processing"
+  },
+  {
+    "id": 9,
+    "customerName": "Karan Patel",
+    "orderDate": "2026-04-09",
+    "amount": 140,
+    "status": "Pending"
+  },
+  {
+    "id": 10,
+    "customerName": "Anjali Nair",
+    "orderDate": "2026-04-10",
+    "amount": 310,
+    "status": "Delivered"
+  }
+]

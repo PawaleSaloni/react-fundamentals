@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Gerbera",
+    "image": "/images/Gerbera.jpg",
+    "description": "Wedding Flower",
+    "quantity": 2000,
+    "price": 10,
+    "likes": 1000
+  },
+  {
+    "id": 2,
+    "title": "Rose",
+    "image": "/images/Rose.jpg",
+    "description": "Romantic Flower",
+    "quantity": 1500,
+    "price": 20,
+    "likes": 2500
+  },
+  {
+    "id": 3,
+    "title": "Lily",
+    "image": "/images/Lily.jpg",
+    "description": "Fragrant Flower",
+    "quantity": 1000,
+    "price": 30,
+    "likes": 1800
+  },
+  {
+    "id": 4,
+    "title": "Tulip",
+    "image": "/images/Tulip.jpg",
+    "description": "Spring Flower",
+    "quantity": 1200,
+    "price": 25,
+    "likes": 1600
+  },
+  {
+    "id": 5,
+    "title": "Orchid",
+    "image": "/images/Orchid.jpg",
+    "description": "Exotic Flower",
+    "quantity": 800,
+    "price": 50,
+    "likes": 2100
+  },
+  {
+    "id": 6,
+    "title": "Sunflower",
+    "image": "/images/Sunflower.jpg",
+    "description": "Bright Flower",
+    "quantity": 1800,
+    "price": 15,
+    "likes": 1900
+  },
+  {
+    "id": 7,
+    "title": "Jasmine",
+    "image": "/images/Jasmine.jpg",
+    "description": "Aromatic Flower",
+    "quantity": 2200,
+    "price": 12,
+    "likes": 1700
+  },
+  {
+    "id": 8,
+    "title": "Marigold",
+    "image": "/images/Marigold.jpg",
+    "description": "Festival Flower",
+    "quantity": 3000,
+    "price": 8,
+    "likes": 1400
+  },
+  {
+    "id": 9,
+    "title": "Daisy",
+    "image": "/images/Daisy.jpg",
+    "description": "Simple Flower",
+    "quantity": 900,
+    "price": 18,
+    "likes": 1300
+  },
+  {
+    "id": 10,
+    "title": "Lotus",
+    "image": "/images/Lotus.jpg",
+    "description": "Sacred Flower",
+    "quantity": 700,
+    "price": 40,
+    "likes": 2200
+  }
+]

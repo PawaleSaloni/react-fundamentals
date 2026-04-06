@@ -11,7 +11,7 @@ class Login extends React.Component {
             <input type="email" className="form-control" id="email"/>
           </div>
           <div className="form-group">
-            <label for="password">Password:</label>
+            <label for="pwd">Password:</label>
             <input type="password" className="form-control" id="pwd"/>
           </div>
           <div className="checkbox">
