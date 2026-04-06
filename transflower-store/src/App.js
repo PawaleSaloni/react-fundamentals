@@ -32,7 +32,8 @@ function BasicRouting() {
         <Link to="/login">Login</Link> |{" "}
         <Link to="/register">Register</Link>
 
-
+        <hr/>
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -78,7 +79,6 @@ function Home() {
     </div>
     )
   }
-
 
 function About() {
   return(
