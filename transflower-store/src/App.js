@@ -33,7 +33,7 @@ function BasicRouting() {
         <Link to="/register">Register</Link>
 
         <hr/>
-        
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -54,6 +54,7 @@ function Home() {
       <div className="jumbotron text-center">
         <h1>Welcome to Transflower Store</h1>
         <p>Your one-stop shop for all your floral needs!</p>
+        <p>Explore our wide range of products and services.</p>
       </div>
 
       <div className="container">
