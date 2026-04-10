@@ -15,7 +15,8 @@ class Orders extends react.Component {
                                     orderDate={item.orderDate}
                                     amount={item.amount}
                                     status={item.status}/>
-                    ))
+                    )
+                        );
                 }
             </div>
         );
