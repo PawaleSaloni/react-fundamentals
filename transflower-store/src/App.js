@@ -5,7 +5,8 @@ import Register from './Register';
 import List from './List';
 import Orders from './Orders';
 import Order from './Order';
-
+import Hello from './Hello';
+import GoodBye from './GoodBye';
 
 function App() {
 
